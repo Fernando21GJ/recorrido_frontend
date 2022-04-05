@@ -52,7 +52,7 @@ export default {
     })
     const store = useStore()
     const setFields = () => {
-       const servicio = store.getters.getServcioById(Number(props.id))
+       const servicio = store.getters.getServicioById(Number(props.id))
        if(servicio) {
            console.log("servicio ", servicio)
            state.servicio = servicio.tipo_servicio

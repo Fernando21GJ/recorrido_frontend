@@ -37,19 +37,14 @@ export default defineComponent({
     </div>
   </nav>
   <div class="container mx-auto mt-4">
-    <h1 class="is-size-3 has-text-centered p-2 has-text-weight-bold is-success">
-      Recorrido Frontend
-    </h1>
-    <h3  class="has-text-centered p-2">Manage records in recorrido</h3>
-
+    <h1 class="is-size-3 has-text-centered p-2 has-text-weight-bold is-success">Vet clinic Frontend</h1>
+    <h3 class="has-text-centered p-2">Manage records of treated livestock in your farm</h3>
     <div v-if="loading">
       <h3 class="has-text-centered mt-4">Loading...</h3>
     </div>
     <div v-else>
-      <p class="has-text-centered mt-2">
-        {{ completedCount }} of {{ totalCount }} treated.
-      </p>
-      <ServicioList/>
+      <p class="has-text-centered mt-2">{{ completedCount }} of {{ totalCount }} treated.</p>
+      <ServicioList />
     </div>
   </div>
 </template>
