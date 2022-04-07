@@ -20,6 +20,7 @@
   </table>
   <EditModal v-if="showEditModal" :id="editModalServicioId"></EditModal>
   <Servicio v-if="showServicioModal" :id="showServicioId"></Servicio>
+
 </template>
 <script>
 import CreateModal from './CreateModal'

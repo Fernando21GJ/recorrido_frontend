@@ -37,7 +37,7 @@ export default defineComponent({
     }
     
     const removeServicio = () => {
-        store.dispatch(ActionTypes.removeServicio, {
+        store.dispatch(ActionTypes.RemoveServicio, {
           id: props.id
         })
     }
