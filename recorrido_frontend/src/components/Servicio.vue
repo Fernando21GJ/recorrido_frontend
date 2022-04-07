@@ -32,7 +32,7 @@ export default {
     const closeModal = () => {
       store.commit(MutationType.SetServicioModal, {
         showModal: false,
-        ServicioId: undefined,
+        servicioId: undefined,
       });
     };
     return { closeModal, servicio };
